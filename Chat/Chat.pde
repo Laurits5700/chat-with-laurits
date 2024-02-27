@@ -12,7 +12,7 @@ void setup(){
 }
 
 void draw(){
-   background(0);
+     background(0);
   textSize(32);
   text(msg, 100, 100);
   
@@ -24,7 +24,7 @@ void draw(){
 void keyPressed(){
   
   if (key == ENTER){
-    log.add(msg);
+    log.add(0, msg);
     msg = "";
   }else{
   
