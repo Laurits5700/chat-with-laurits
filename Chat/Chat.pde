@@ -1,1 +1,11 @@
-println("lolnej");
+void setup(){
+  
+}
+
+void draw(){
+  
+}
+
+void keyPressed(){
+  
+}
