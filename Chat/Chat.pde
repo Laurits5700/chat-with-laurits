@@ -4,7 +4,7 @@ String msg;
 void setup(){
   
   size(600, 600);
- background(0);
+
   
   log = new ArrayList<String>();
   
@@ -12,11 +12,12 @@ void setup(){
 }
 
 void draw(){
+   background(0);
   textSize(32);
   text(msg, 100, 100);
   
-  for (int i = 0; i < log.size(); i ++){
-    text(log.get(i), 100, 150+50*i);
+  for (int i = log.size(); i > 0; i--){
+    text(log.get(i-1), 100, 150+50*(i-1));
   }
 }
 
