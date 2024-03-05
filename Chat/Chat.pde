@@ -3,7 +3,7 @@ String msg;
 
 void setup(){
   
-  size(600, 600);
+  size(1000, 1000);
 
   
   log = new ArrayList<String>();
